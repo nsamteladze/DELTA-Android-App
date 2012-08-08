@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AppPatchActivity!</string>
+    <string name="app_name">App Patch</string>
+    <string name="label_select_app">Select Application</string>
+    <string name="label_select_version">Select Version</string>
+    <string name="button_patch">Patch</string>
+    <string name="button_exit">Exit</string>
+    <string-array name="available_apps">
+        <item >None</item>
+        <item >Angry Birds</item>
+        <item >WiFi Manager</item>
+        <item >Skype</item>
+    </string-array>
+    <string-array name="available_versions">
+        <item >None</item>
+    </string-array>
+    <string name="app_main_folder">Delta</string>
+    <string name="app_patch_forder">Patch</string>
+    <string name="app_app_folder">Installed</string>
+
+</resources>

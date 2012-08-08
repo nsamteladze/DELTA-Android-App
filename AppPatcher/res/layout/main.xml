@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_SelectApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_select_app"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <Spinner
+        android:id="@+id/spinner_SelectApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/label_select_app" />
+    <TextView
+        android:id="@+id/textView_SelectVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_select_version"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <Spinner
+        android:id="@+id/spinner_SelectVesrion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/label_select_version" />
+
+    <Button
+        android:id="@+id/buttonPatch"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_patch" />
+    
+</LinearLayout>
